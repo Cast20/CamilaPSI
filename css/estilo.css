@@ -1,0 +1,138 @@
+/* Limpar formatações padrão */
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-size: 1em;
+    font-family: "Trebuchet MS", Helvetica, sans-serif;
+    background: #e6e6e6;
+}
+
+/* ---> Layout <--- */
+#area-cabecalho{
+    background-color: #ad13a1;
+    padding: 10px;
+    text-align: center;
+    width: 100%;
+    position: fixed;
+    transition: 0.2s;
+}
+#area-logo, #area-menu{
+    padding: 5px;
+}
+#area-principal{
+    width: 920px;
+    margin:0 auto;
+    padding: 15px;
+    clear: both;
+}
+
+#area-postagens{
+    width: 660px;
+    float: left;
+    margin-top: 125px;
+}
+#area-lateral{
+    width: 240px;
+    float: right;
+    margin-top: 125px
+}
+.postagem{
+    padding: 20px;
+    margin-bottom: 20px;
+    background: white;
+}
+.conteudo-lateral{
+    background: white;
+    margin-bottom: 20px;
+}
+.postagem-lateral, .postagem-lateral-ultima{
+    font-size: 0.8em;
+    padding: 5px;
+    border-bottom: 1px dotted #4e4e4e;
+}
+.postagem-lateral-ultima{
+    border: none;
+}
+#rodape{
+    clear: both;
+    text-align: center;
+    padding: 15px;
+    color: white;
+    background: #4e4e4e;
+}
+/*---> Formatação de links <--- */
+a{
+    text-decoration: none;
+    display: inline-block;
+}
+
+ a:link, a:visited{
+    color: #FFF;
+    background: #ad13a1;
+    padding: 8px 12px;
+}
+a:hover{
+    color: #FFF;
+    background: #4e4e4e;
+    padding: 10px 14px;
+}
+
+#area-menu a:link, #area-menu a:visited{
+    color: #FFF;
+    padding: 8px 12px;
+}
+#area-menu a:hover{
+    color: #ad13a1;
+    background: #FFF;
+}
+.conteudo-lateral a:link, .conteudo-lateral a:visited{
+    color:  #ad13a1;
+    background: #FFF;
+    text-decoration: underline;
+    padding: 0;
+}
+.conteudo-lateral a:hover{
+    color: #4e4e4e;
+    background: #FFF;
+    padding: 0;
+}
+/* ---> Formatações em geral <---*/
+h1{
+    color: #4e4e4e;
+    font-size: 2.5em;
+}
+h2{
+    color: #4e4e4e;
+}
+h3{
+    color: #565656;
+    background: #ccc;
+    
+    padding: 5px;
+}
+.data-postagem{
+    font-size: 0.8em;
+    border-bottom: 3px solid  #ad13a1;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+    display: block;
+
+}
+.postagem p{
+    margin: 10px 0;
+}
+.branco{
+    color: white;
+}
+.conteudo-lateral h4, .conteudo-lateral a, ul{
+    margin: 2px 7px;
+}
+ul{
+    list-style-type: none;
+    color: #ad13a1;
+}
+li{
+    padding: 2px 5px;
+}
