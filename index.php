@@ -12,7 +12,7 @@
            <h1>Army<span class="branco">Nation</span></h1> 
         </div>
         <div id="area-menu">
-            <a href="index.html">Home</a>
+            <a href="index.php">Home</a>
             <a href="https://www.wefightt.com/votacoes-ativas">Votações Ativas</a>
             <a href="https://twitter.com/BTSNotice">Notícias</a>
             <a href="https://youtu.be/-5q5mZbe3V8">Stream</a>
